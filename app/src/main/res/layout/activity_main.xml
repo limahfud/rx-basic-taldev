@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.mahfud.rxtalentdev.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnLinkFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Filter Operator"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:id="@+id/btnLinkMap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Map Operator"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:id="@+id/btnLinkFlatMap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Flat Map Operator"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:id="@+id/btnLinkConcatMap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Concat Map Operator"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:id="@+id/btnLinkConcat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Concat Operator"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:id="@+id/btnLinkCombineLatest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Combine Latest Operator"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:id="@+id/btnLinkZip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zip Operator"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:id="@+id/btnLinkScan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scan Operator"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:id="@+id/btnLinkReduce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reduce Operator"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:id="@+id/btnLinkDebounce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Debounce Operator"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:id="@+id/btnLinkDistinct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Distinct"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:id="@+id/btnLinkDistinctUntilChanged"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Distinct Until Changed"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:id="@+id/btnLinkTakeUntil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Take Until Changed"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:id="@+id/btnLinkDefaultEmpty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Default If Empty"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

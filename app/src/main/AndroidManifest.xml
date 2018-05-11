@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.mahfud.rxtalentdev">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".operator.FilterActivity" />
+        <activity android:name=".operator.MapActivity" />
+        <activity android:name=".operator.FlatMapActivity" />
+        <activity android:name=".operator.ConcatMapActivity" />
+        <activity android:name=".operator.ConcatActivity" />
+        <activity android:name=".operator.CombineLatestActivity" />
+        <activity android:name=".operator.ZipActivity" />
+        <activity android:name=".operator.ScanActivity" />
+        <activity android:name=".operator.ReduceActivity" />
+        <activity android:name=".operator.DebounceActivity" />
+        <activity android:name=".operator.DistinctActivity" />
+        <activity android:name=".operator.DistinctUntilChangedActivity" />
+        <activity android:name=".operator.TakeUntilActivity" />
+        <activity android:name=".operator.DefaultIfEmptyActivity"></activity>
+    </application>
+
+</manifest>
